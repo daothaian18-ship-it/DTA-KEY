@@ -2,20 +2,47 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KEY ĐANG FREE</title>
 
     <style>
-        body {
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
             margin: 0;
+            width: 100%;
+            min-height: 100%;
+        }
+
+        body {
             min-height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
+
             background-color: #121212;
             color: #ffffff;
             font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            margin: 0 0 20px 0;
+            font-size: 42px;
+        }
+
+        p {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .key {
+            color: #00aaff;
+            font-weight: bold;
+            user-select: all;
         }
     </style>
 </head>
@@ -23,7 +50,11 @@
 <body>
 
     <h1>KEY ĐANG FREE 👇</h1>
-    <p>NÈ MẤY VỢ "DTA-ABC-XYZ-ANN".</p>
+
+    <p>
+        NÈ MẤY VỢ
+        <span class="key">"DTA-ABC-XYZ-ANN"</span>
+    </p>
 
 </body>
 </html>
